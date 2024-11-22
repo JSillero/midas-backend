@@ -14,6 +14,9 @@ markdown = "*"
 django-filter = "*"
 djangorestframework-simplejwt = "*"
 django-cors-headers = "*"
+whitenoise = {extras = ["brotli"], version = "*"}
+gunicorn = "*"
+uvicorn = "*"
 
 [dev-packages]
 
