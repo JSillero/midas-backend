@@ -15,7 +15,7 @@ services:
       - key: DATABASE_URL
         fromDatabase:
           name: PGDATABASE
-          property: PGHOST
+          property: CONNECTION_STRING
       - key: SECRET_KEY
         generateValue: true
       - key: WEB_CONCURRENCY
