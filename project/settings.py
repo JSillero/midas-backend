@@ -30,7 +30,10 @@ SECRET_KEY = getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysite-vt2u.onrender.com','localhost','127.0.0.1']
+
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
+
 
 
 # Application definition
@@ -163,4 +166,3 @@ if not DEBUG:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
