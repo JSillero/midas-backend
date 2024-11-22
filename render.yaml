@@ -14,8 +14,8 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysitedb
-          property: connectionString
+          name: PGDATABASE
+          property: PGHOST
       - key: SECRET_KEY
         generateValue: true
       - key: WEB_CONCURRENCY
