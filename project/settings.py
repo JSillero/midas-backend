@@ -32,7 +32,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['mysite-vt2u.onrender.com','localhost','127.0.0.1']
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173","https://midashands.netlify.app/"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173","https://midashands.netlify.app"]
 
 
 
